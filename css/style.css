@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(../assignment6-images/hero-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.over {
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 100%;
+}
+.item h1 {
+  font-size: 4rem;
+}
+.item h1::after {
+  display: block;
+  text-align: center;
+  content: " |";
+  animation-name: typeing;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  font-size: 2rem;
+}
+@keyframes typeing {
+  0% {
+    content: " |";
+  }
+  5% {
+    content: " D|";
+  }
+  10% {
+    content: " DE|";
+  }
+  15% {
+    content: " DES|";
+  }
+  20% {
+    content: " DESI|";
+  }
+
+  25% {
+    content: " DESIG|";
+  }
+
+  30% {
+    content: " DESIGN|";
+  }
+  40% {
+    content: " DESIGNE|";
+  }
+  45% {
+    content: " DESIGNER|";
+  }
+  50% {
+    content: " DESIGNER|";
+  }
+  65% {
+    content: " D|";
+  }
+  70% {
+    content: " DE|";
+  }
+  75% {
+    content: " DEV|";
+  }
+  80% {
+    content: " DEVE|";
+  }
+
+  85% {
+    content: " DEVEL|";
+  }
+
+  90% {
+    content: " DEVELO|";
+  }
+
+  95% {
+    content: " DEVELOP|";
+  }
+
+  100% {
+    content: " DEVELOPER|";
+  }
+}
+.line2 {
+  width: 80px;
+  height: 3px;
+  background-color: #0078ff;
+}
+
+.semi-card {
+  background-color: rgb(255, 255, 255);
+}
+.skill .progress {
+  height: 10px;
+  border-radius: 1px;
+  background-color: #cde1f8;
+  position: relative;
+  margin-bottom: 20px;
+}
+.skill .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #0078ff;
+  border-radius: 3px;
+}
+
+.services-item h3 {
+  font-size: 3rem;
+}
+.semi-card i {
+  font-size: 3rem;
+  padding: 30px;
+  color: rgb(214, 214, 214);
+  border: 5px solid #0078ff;
+  border-radius: 50%;
+}
+.semi-card:hover i {
+  background-color: #0078ff;
+  border: 7px solid rgb(243, 180, 180);
+  color: cornflowerblue;
+}
+.line {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+.semi-card {
+  background-color: rgb(255, 255, 255);
+}
+.counter {
+  background-image: url(../assignment6-images/post-3.jpg);
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.overly {
+  width: 100%;
+  height: 100%;
+  background-color: #0077ffb3;
+  padding: 8rem;
+}
+.ico-count {
+  color: #fff;
+}
+.ico-count i {
+  font-size: 50px;
+}
+.work-item h3 {
+  font-size: 3rem;
+}
+
+.line {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+
+.semi img {
+  transition: transform 0.5s;
+}
+.semi:hover img {
+  transform: scale(1.05, 1.05);
+}
+.work-icon {
+  font-size: 30px;
+  color: blue;
+  cursor: pointer;
+}
+#test {
+  background-image: url(../assignment6-images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.test2 {
+  background-color: #0077ffa3;
+  color: #fff;
+  font-size: 20px;
+}
+.blog-item h2 {
+  font-size: 3rem;
+}
+.travel a {
+  text-decoration: none;
+  color: black;
+}
+.travel a:hover {
+  color: blue;
+}
+.card-footer img {
+  width: 40px;
+}
+.card-footer a {
+  text-decoration: none;
+  color: black;
+}
+.card-footer a:hover {
+  color: blue;
+}
+
+#contact {
+  background-image: url(../assignment6-images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.message {
+  background-color: #0077ffb2;
+}
+
+.line3 {
+  width: 90px;
+  height: 3px;
+  background-color: #0078ff;
+}
+.btn {
+  background-color: #0078ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid rgb(236, 182, 182);
+}
+.btn:hover {
+  background-color: #0078ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.touch {
+  font-size: 20px;
+}
+
+.get p i {
+  color: #0078ff;
+}
+.get span {
+  border: 3px solid #0078ff;
+  border-radius: 50%;
+}
+.get span i {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.get span:hover {
+  cursor: pointer;
+  background-color: #0078ff;
+  border: 5px solid rgb(227, 188, 188);
+}
+.get span:hover i {
+  color: #fff;
+}
+.icon {
+  margin-bottom: 40px;
+}
+#footer {
+  padding: 10px;
+  color: #fff;
+  background-color: #0078ff;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
